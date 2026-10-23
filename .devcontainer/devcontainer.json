@@ -1,0 +1,12 @@
+{
+  "name": "Codespace Desktop",
+  "image": "lscr.io/linuxserver/webtop:ubuntu-xfce",
+  "forwardPorts": [3001],
+  "portsAttributes": {
+    "3001": {
+      "label": "Desktop",
+      "protocol": "https",
+      "onAutoForward": "notify"
+    }
+  }
+}
