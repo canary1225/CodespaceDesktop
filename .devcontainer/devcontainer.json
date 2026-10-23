@@ -1,6 +1,7 @@
 {
   "name": "Codespace Desktop",
   "image": "lscr.io/linuxserver/webtop:ubuntu-xfce",
+  "overrideCommand": false,
   "forwardPorts": [3001],
   "portsAttributes": {
     "3001": {
